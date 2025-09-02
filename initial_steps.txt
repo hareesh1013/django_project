@@ -28,3 +28,12 @@ python manage.py startapp students
 
 # Run server
 python manage.py runserver
+
+
+Explanation:
+
+student_mgmt/ → main project folder
+
+students/ → app where models/views/templates go
+
+runserver → starts dev server at http://127.0.0.1:8000
