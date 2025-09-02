@@ -1,0 +1,30 @@
+Student Management System
+Project Goal
+
+A web app where users can:
+
+Register/Login
+
+Add, view, edit, delete students
+
+Use templates and Bootstrap
+
+See authentication in action
+
+
+Step 1: Setup Project
+
+
+# Install Django
+pip install django
+
+# Create project
+django-admin startproject student_mgmt
+
+cd student_mgmt
+
+# Create app
+python manage.py startapp students
+
+# Run server
+python manage.py runserver
